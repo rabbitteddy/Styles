@@ -1,0 +1,39 @@
+body {
+font-family: sans-serif;
+}body,
+html {
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+}
+h3,
+h4 {
+text-align: center;
+}
+h5 {
+text-align: right;
+}
+p {
+color: red;
+font-family: courier;
+font-size: 160%;
+}.header {
+flex: 0 0 45px;
+background: lightblue;
+}.main {
+flex: 1 0;
+display: flex;
+flex-flow: row nowrap;
+}.main section {
+flex: 0 0 15%;
+background: lavender;
+}.main .content {
+flex: 1 0;
+text-align: center;
+align-self: center;
+}.footer {
+flex: 0 0 20px;
+background: peachpuff;
+}
+
